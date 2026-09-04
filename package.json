@@ -1,0 +1,27 @@
+{
+  "name": "fantasia-barrage-engine",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "pnpm dev:game",
+    "dev:game": "vite --open /game.html",
+    "dev:editor": "vite --open /editor.html",
+    "build": "vite build",
+    "preview": "vite preview --open /game.html",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "latest",
+    "vite": "latest",
+    "typescript": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "lucide-react": "latest"
+  },
+  "devDependencies": {
+    "@types/react": "latest",
+    "@types/react-dom": "latest"
+  },
+  "packageManager": "pnpm@11.21.0"
+}
